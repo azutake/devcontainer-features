@@ -1,6 +1,6 @@
 {
     "install-packages": {
-        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "image": "ubuntu:focal",
         "features": {
             "ghcr.io/devcontainers/features/go:1": {},
             "go-packages-install": {

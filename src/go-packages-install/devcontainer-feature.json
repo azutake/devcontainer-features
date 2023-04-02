@@ -1,17 +1,17 @@
 {
   "name": "Go Install Packages",
   "id": "go-packages-install",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Installs go packages",
   "options": {
-      "PACKAGES": {
-          "type": "string",
-          "description": "package-names, example: golang.org/x/tools/gopls@latest,github.com/cosmtrek/air@latest",
-          "default": ""
-      }
+    "PACKAGES": {
+      "type": "string",
+      "description": "package-names, example: golang.org/x/tools/gopls@latest,github.com/cosmtrek/air@latest",
+      "default": ""
+    }
   },
   "installsAfter": [
-      "ghcr.io/devcontainers/features/common-utils",
-      "ghcr.io/devcontainers/features/go"
+    "ghcr.io/devcontainers/features/common-utils",
+    "ghcr.io/devcontainers/features/go"
   ]
 }
