@@ -1,0 +1,11 @@
+{
+    "install-packages": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "ghcr.io/devcontainers/features/go:1": {},
+            "go-packages-install": {
+                "PACKAGES": "github.com/go-delve/delve/cmd/dlv@latest,github.com/cosmtrek/air@latest"
+            }
+        }
+    }
+}

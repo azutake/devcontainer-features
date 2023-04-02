@@ -13,8 +13,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - go-packages-install
         baseImage:
           - debian:latest
           - ubuntu:latest
